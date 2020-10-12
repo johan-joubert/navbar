@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+#logoFlooop{
+    width: 190px;
+}
+
+#titleAndNav {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.4);
+    padding: 1px;
+}
+
+nav {
+    align-self: center;
+}
+
+nav li {
+    display: inline;
+    margin: 15px;
+    color:#FF9A17;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    padding: 0px 3px;
+}
+
+nav li:hover {
+    border-left: 3px solid #FF9A17;
+}
